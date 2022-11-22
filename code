@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DIR=$(fd -t d -d 1 '' /home/aaron/Code | fzf)
+cd $DIR
+nvim
